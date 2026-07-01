@@ -1,0 +1,12 @@
+header h1 {
+    color:blue;
+    font-size: 2rem;
+    text-align:center;
+}
+
+header nav ul li{
+    background-color:aqua;
+    display:flex;
+    justify-content:flex-end;
+    
+}
