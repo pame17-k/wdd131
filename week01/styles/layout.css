@@ -1,15 +1,15 @@
 header h1 {
-    color:blue;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: start;
+    background-color: lightpink;
 }
 
 header nav ul {
-    background-color:aqua;
+    background-color:lightgray;
     display:flex;
     justify-content: space-around;
     list-style-type:none;
-    
+    padding: 7px;
 }
 
 main {
@@ -29,7 +29,7 @@ aside {
 }
 
 footer {
-    background-color: aqua;
+    background-color: lightsalmon;
     text-align: center;
     padding: 1rem;
 }
