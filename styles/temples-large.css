@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    background-color:transparent;
+}
+
+.navigation a {
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.album {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
