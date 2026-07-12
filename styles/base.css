@@ -64,6 +64,8 @@ h1 {
     padding: 1.5rem;
     width: 400px;
     border: 1px solid #ccc;
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 .card h2 {
@@ -84,7 +86,7 @@ h1 {
 .card img {
     display: block;
     margin: 1rem auto;
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 5px;
 }
 
