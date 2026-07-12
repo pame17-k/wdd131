@@ -42,7 +42,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
     padding: 2rem;
     gap: 2.5rem; /* más separación entre tarjetas */
     max-width: 1200px; /* aumenta el ancho máximo del contenedor */
@@ -64,8 +63,6 @@ h1 {
     padding: 1.5rem;
     width: 400px;
     border: 1px solid #ccc;
-    display: grid;
-    grid-template-rows: 1fr;
 }
 
 .card h2 {
@@ -74,6 +71,7 @@ h1 {
     padding: 0.5rem;
     border-radius: 5px;
     text-align: center;
+    display:grid
 }
 
 .card h3 {
