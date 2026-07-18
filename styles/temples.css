@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color:white;
-    color: white;
+    color: black;
 }
 
 header {
-    background-color:blueviolet;
+    background-color: #441b5d;
     color: white;
     padding: 1rem;
     display: flex;
@@ -22,7 +22,7 @@ header h1 {
 
 #menu {
     font-size: 1.5rem;
-    background-color: none;
+    background-color: #bbbbe0;
     border: none;
     color: white;
     cursor: pointer;
@@ -74,7 +74,7 @@ figcaption {
 }
 
 footer {
-    background-color: #6a1b9a;
+    background-color: #441b5d;
     color: white;
     text-align: center;
     padding: 1rem;
