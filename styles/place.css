@@ -54,7 +54,14 @@ main {
 }
 
 .weather h2::after {
-  content: " ☀️";
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../images/cloud-sun-fill.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
   margin-left: 0.5rem;
 }
 
