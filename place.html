@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, this course helps students learn the fundamentals of web development, including HTML, CSS, and JavaScript.">
+    <meta name="author" content="Pamela Beltran Trujillo">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Mexico</h1>
+    </header>
+
+    <main>
+        <section class="data">
+            <h2>Data</h2>
+            <p><strong>Area:</strong> 1,964,375 km²</p>
+            <p><strong>Population:</strong> 134 million people</p>
+            <p><strong>Capital:</strong> Mexico City</p>
+            <p><strong>Languages:</strong> Spanish</p>
+            <p><strong>Currency:</strong> Mexican Peso</p> 
+            <p><strong>Time Zone:</strong> UTC-6</p>
+            <p><strong>Calling Code:</strong> +52</p>
+            <p><strong>Internet TLD:</strong> .mx</p>
+        </section>
+        <section class="hero">
+            <picture>
+                <source srcset="images/mexico-large.webp" media="(min-width: 800px)">
+                <source srcset="images/mexico-medium.webp" media="(min-width: 500px)">
+                <img src="images/mexico-small.webp" alt="Mexico" width="1500" height="750"> 
+            </picture>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <p><strong>Temperature:</strong> 26°C</p>
+            <p><strong>Conditions:</strong> Sunny</p>
+            <p><strong>Wind:</strong>12 km/h</p>
+            <p><strong>Wind Chill:</strong>24°C</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Pamela Beltran Trujillo - Mexico
+        </p>
+        <p>
+            Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>
