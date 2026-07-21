@@ -22,28 +22,45 @@ header h1 {
 
 #menu {
     font-size: 1.5rem;
-    background-color: #bbbbe0;
+    background-color: #7c7cb2;
     border: none;
-    color: white;
+    color: #141010;
     cursor: pointer;
 }
 
-.navigation {
-    display: none;
-    flex-direction: column;
-    background-color:beige;
+nav {
+    display: flex;
+    flex-direction: column; /* en móvil se apilan */
+    background-color: beige;
 }
 
-.navigation a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
     border-bottom: 1px solid beige;
 }
 
-.navigation a:hover {
+nav a:hover {
     background-color: darkblue;
 }
+
+/*.navigation {
+    display: none;
+    flex-direction: column;
+    background-color:beige;
+}*/
+
+/*.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid beige;
+}*/
+
+/*.navigation a:hover {
+    background-color: darkblue;
+}*/
 
 main {
     max-width: 800px;
