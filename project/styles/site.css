@@ -1,0 +1,29 @@
+
+
+header {
+    background-color: #6dbdcb;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+body {
+    background-color: #F2EFE9;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6dbdcb;
+    padding: 1rem;
+}
