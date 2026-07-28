@@ -10,9 +10,10 @@ function calculateWindChill(tempC, windKmh) {
 
 const temp = 25;
 const wind = 10;
-if (temp <= 10 && wind > 4.8) {
-  document.getElementById("chill").textContent =
-    calculateWindChill(temp, wind).toFixed(1) + "°C";
-} else {
-  document.getElementById("chill").textContent = "N/A";
-}
+  if (temp <= 10 && wind > 4.8) {
+    document.getElementById("chill").textContent =
+      calculateWindChill(temp, wind).toFixed(1) + "°C";
+  } 
+  else {
+    document.getElementById("chill").textContent = "N/A";
+  }
