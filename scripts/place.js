@@ -1,7 +1,7 @@
 
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent =
-  "Última modificación: " + document.lastModified;
+  "Last Modified: " + document.lastModified;
 
 function calculateWindChill(tempC, windKmh) {
   return 13.12 + 0.6215 * tempC - 11.37 * Math.pow(windKmh, 0.16) +
