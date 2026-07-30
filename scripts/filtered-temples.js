@@ -122,3 +122,4 @@ links[4].addEventListener("click", () => {
   createCard(temples.filter(t => t.area < 10000));
   title.textContent = "Small";
 });
+
