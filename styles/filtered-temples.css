@@ -9,7 +9,7 @@ body {
 header {
     background-color: #441b5d;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +74,7 @@ main {
 .album {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 

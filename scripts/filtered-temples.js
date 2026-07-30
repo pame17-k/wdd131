@@ -72,19 +72,53 @@ const temples = [
 ];
 
 const album = document.querySelector(".album");
+const title = document.querySelector("main h2");
 
-temples.forEach(temple => {
-  const figure = document.createElement("figure");
+function createCard(filteredTemples) {
+  album.innerHTML = ""; // limpiar antes de renderizar
+  filteredTemples.forEach(temple => {
+    const figure = document.createElement("figure");
 
-  const img = document.createElement("img");
-  img.src = temple.imageUrl;
-  img.alt = temple.templeName;
-  img.loading = "lazy";
+    const img = document.createElement("img");
+    img.src = temple.imageUrl;
+    img.alt = temple.templeName;
+    img.loading = "lazy";
 
-  const caption = document.createElement("figcaption");
-  caption.textContent = `${temple.templeName} — ${temple.location}`;
+    const caption = document.createElement("figcaption");
+    caption.textContent = `${temple.templeName} — Location: ${temple.location}, Dedicated: ${temple.dedicated}, Size: ${temple.area}`;
 
-  figure.appendChild(img);
-  figure.appendChild(caption);
-  album.appendChild(figure);
+    figure.appendChild(img);
+    figure.appendChild(caption);
+    album.appendChild(figure);
+  });
+}
+
+createCard(temples);
+
+// Capturar enlaces del menú
+const links = document.querySelectorAll("nav a");
+
+links[0].addEventListener("click", () => {
+  createCard(temples);
+  title.textContent = "Home";
+});
+
+links[1].addEventListener("click", () => {
+  createCard(temples.filter(t => parseInt(t.dedicated.slice(0,4)) < 1900));
+  title.textContent = "Old";
+});
+
+links[2].addEventListener("click", () => {
+  createCard(temples.filter(t => parseInt(t.dedicated.slice(0,4)) > 2000));
+  title.textContent = "New";
+});
+
+links[3].addEventListener("click", () => {
+  createCard(temples.filter(t => t.area > 90000));
+  title.textContent = "Large";
+});
+
+links[4].addEventListener("click", () => {
+  createCard(temples.filter(t => t.area < 10000));
+  title.textContent = "Small";
 });
