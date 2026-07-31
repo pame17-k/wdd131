@@ -14,6 +14,10 @@ header {
     border-bottom: 4px solid #73915c;
 }
 
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
 /*Formulario*/
 
 form {
@@ -23,19 +27,19 @@ form {
     border-radius: 10px;
     max-width: 600px;
     box-shadow: 0 0 15px rgba(115, 145, 92, 0.3);
-
+    
 }   
 /*Etiquetas y leyendas*/
 
 label {
     display: block;
-    margin-top: 10px;
+    margin-top: 2rem;
 
 }
 
 legend {
     display: block;
-    margin-top: 30px;
+    margin-top: 2rem;
 }
 
 /*Campos de entrada*/
@@ -44,10 +48,14 @@ input[type=date],
 select,
 textarea,
 input[type=text] {
+    width: 100%;
+    padding: .5rem;
+    margin-top: .5rem;
+    border: 1px solid #324723;
+    border-radius: 6px;
+    background-color: #f9fbf8;
     display: block;
-    padding: .5rem 0 .5rem .5rem;
-    border: none;
-    margin-top: 1rem;
+    
 }
 
 textarea {
@@ -59,7 +67,6 @@ textarea {
 
 .rating {
     display: flex;
-
     align-content: space-between;
     margin-top: .5rem;
     

@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  form {
+    padding: 1.2rem;
+    margin: 1rem;
+    box-shadow: none; /* simplifica en móviles */
+  }
+
+  header {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1rem;
+    padding: .7rem;
+  }
+
+  label, legend {
+    font-size: .95rem;
+  }
+
+  footer {
+    font-size: .8rem;
+    padding: .8rem;
+  }
+}
