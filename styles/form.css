@@ -7,7 +7,59 @@ header {
     padding: 1.5rem;
 }
 
+form {
+    background-color: #e8f3e0;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 600px;
+}   
 
+label {
+    display: block;
+    margin-top: 10px;
+
+}
+
+legend {
+    display: block;
+    margin-top: 30px;
+}
+
+input[type=date],
+select,
+textarea,
+input[type=text] {
+    display: block;
+    padding: .5rem 0 .5rem .5rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 0;
+
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+
+input[type="submit"] {
+    border: .5px #324723;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #73915c;
+}
 
 footer {
     padding: 1.5rem;
