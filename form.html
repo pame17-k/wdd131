@@ -19,7 +19,7 @@
     <main>
         <form method="get" action="review.html">
             <!--Product Name-->
-            <label for="productName">Product Name:</label>
+            <label for="productName">Product Name: *</label>
             <select id="productName" name="productName" required>
                 <option value="" disabled selected>Select a product...</option>
                 <!--Options will be added dynamically-->
@@ -27,7 +27,7 @@
 
             <!--Overall Rating agregue el id-->
             <fieldset class="rating">
-                <legend>Overall Rating:</legend>
+                <legend>Overall Rating: *</legend>
                 <input type="radio" id="rating1" name="rating" value="1" required>
                 <label for="rating1">★</label>
 
@@ -45,7 +45,7 @@
             </fieldset>
 
             <!--Date of Installation-->
-            <label for="installDate">Date of Installation: </label>
+            <label for="installDate">Date of Installation: *</label>
             <input type="date" id="installDate" name="installDate" required>
 
             <!--Useful Features-->
@@ -65,11 +65,11 @@
             </fieldset>
 
             <!--Written Review-->
-            <label for="reviewText">Written Review: </label>
+            <label for="reviewText">Written Review: (Optional)</label>
             <textarea id="reviewText" name="reviewText"></textarea>
 
             <!--User Name-->
-            <label for="userName">User Name: </label>
+            <label for="userName">User Name: (Optional)</label>
             <input type="text" id="userName" name="userName">
 
             <!--Submission Button-->
