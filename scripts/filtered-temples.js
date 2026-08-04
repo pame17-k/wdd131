@@ -68,6 +68,27 @@ const temples = [
     imageUrl:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
+  {
+    templeName: "Tokyo Japan",
+    location: "Tokyo, Japan",
+    dedicated: "1980, October, 27",
+    area: 52400,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/tokyo-japan/400x250/tokyo-japan-temple-lds-1078821-wallpaper.jpg"
+  },
+  {
+    templeName: "Paris France",
+    location: "Le Chesnay, France",
+    dedicated: "2017, May, 21",
+    area: 44175,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/400x250/paris-france-temple-lds-2119723-wallpaper.jpg"
+  },
+  {
+    templeName: "Sapporo Japan",
+    location: "Sapporo, Japan",
+    dedicated: "2016, August, 21",
+    area: 48480,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sapporo-japan/400x250/sapporo-japan-temple-lds-2119720-wallpaper.jpg"
+  }
   
 ];
 
