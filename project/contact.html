@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Angeles del Cielo Website</title>
+    <meta name="description" content="This name represents an animal rescue organization located in Oaxaca that rescues and rehomes abandoned animals. ">
+    <meta name="author" content="Pamela Beltran Trujillo">
+
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="styles/site-large.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Angeles del cielo Oaxaca
+        </h1>
+        <img src="images/logo.webp" alt="Angeles del Cielo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adoption.html">Adoption</a></li>
+                <li><a href="stories.html">SuccessStories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact">
+            <h1>Angeles del cielo Oaxaca</h1>
+            <p>Los Lagos</p>
+            <p>Oaxaca, Mexico</p>
+            <p>+1 999 999 9999</p>
+            <p>info@angelesdelcielooaxaca.org</p>
+            
+        </div>
+        <section class="middle"> 
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41495.86403679939!2d-96.71837059304376!3d17.076158141369618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1785952816651!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>            </div>
+
+            <form class="box">
+                <div class="quiz-item box">
+                    <label for="q1">Name</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q2">Email</label>
+                    <input type="email" id="q2" name="q2" required>
+                </div>
+                <div class="quiz-item box">
+                    <p>Message Purpose</p>
+                    <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                    <label for="inquiry">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Question About Adoption</label><br>
+
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q4">Message</label>
+                    <textarea id="q4" name="q4"></textarea>
+                </div>
+                <div class="quiz-item box">
+                    <label for="q5">Please Subscribe me to the monthyly newsletter</label>
+                    <input type="checkbox" id="q5" name="q5">
+                </div>
+                <button type="submit"> Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="adventures">
+            <h2>Our Team</h2>
+            <figure>
+                <img src="images/person1.jpg" alt="Lara - President">
+                <figcaption>Lara - President</figcaption>
+            </figure>
+            <figure>
+                <img src="images/person2.jpg" alt="Jhon - Care Team Leader">
+                <figcaption>Jhon - Care Team Leader</figcaption>
+            </figure>
+            <figure>
+                <img src="images/person3.jpg" alt="Javier - Volunteer">
+                <figcaption>Javier - Volunteer</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="year"></span> Pamela Beltran Trujillo - Mexico
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+        
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
