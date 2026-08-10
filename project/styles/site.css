@@ -15,6 +15,34 @@ body {
   color: var(--accent1-color);
 }
 
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 
 h1, h2 {
     font-family: "Roboto", sans-serif;
@@ -160,7 +188,7 @@ form.box button[type="submit"]:hover {
 }
 
 /* -- ADOPTION -- */
-* CTA SECTION */
+/* CTA SECTION */
 
 .cta {
   text-align: center;
