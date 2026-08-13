@@ -2,7 +2,7 @@
     --primary-color: #337d8a;
     --secondary-color: #f2efe9;
     --accent1-color: #493524;
-    --accent2-color: #e76f51;
+    --accent2-color: #e0bcb3;
 }
 * {
   margin: 0;
@@ -43,6 +43,14 @@ header nav a {
   font-weight: bold;
 }
 
+h1 {
+  position: static; 
+  background-color: transparent; /* evita fondo encima */
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
 
 h1, h2 {
     font-family: "Roboto", sans-serif;
@@ -55,12 +63,99 @@ section {
     border-radius: 10px;
 }
 
+/* -- INDEX --*/
+.start {
+    background: #efe2e2;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*.start h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}*/
+.start img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.start p {
+    color: var(--accent1-color);
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
 footer {
     background-color: var(--primary-color);
     padding: 1rem;
 }
 
+/* --- SUCCESS STORIES --- */
+.stories {
+  background-color: var(--accent2-color);
+  margin: 32px 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.stories {
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+}
+.str-intro {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f5f2ee;
+}
+
+.str {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-left: 4px solid #6dbdcb;
+  background-color: #f9f8f6;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.str:hover {
+  background-color: #e8e4d9;
+  transform: scale(1.02);
+}
+
+.str h3 {
+  color: #2a2b2a;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.str p {
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+.str img {
+  max-width: 40%;
+  height: 50px auto;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+
 /* --- CONTACT US --- */
+#success-stories {
+  margin: 32px 0;
+  text-align: center;
+  color: var(--accent1-color);
+  
+}
+
 .contact {
   margin: 32px 0; /* separa la sección del header */
   text-align: center; 
